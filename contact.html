@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="img/favicon.jpg" />
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <title>La Chouette agence</title>
+</head>
+
+<body>
+
+  <header>
+    <h1 class="logo"><a class="nav-logo" href="test.html"><img src="img/la-chouette-agence.png" alt="logo la Chouette agence" height="40" /></a></h1>
+    <input type="checkbox" id="nav-toggle" class="nav-toggle">
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <label for="nav-toggle" class="nav-toggle-label">
+      <span></span>
+    </label>
+  </header>
+  <main class="container">
+    <section class="promotion1">
+      <img src="img/logo.png" class="promotion1-logo__center" width="100" alt="La chouette agence, agence web paris, logo" />
+      <h2>La Chouette Agence</h2>
+    </section>
+    <section class="intro-contact">
+      <h2>
+        Parlons web design !
+      </h2>
+      <p>
+        Nous sommes ravis que vous souhaitiez collaborer avec notre agence.<br>
+        Parlez-nous de votre projet en complétant le formulaire ci-dessous.
+      </p>
+
+    </section>
+    <section class="form-contact">
+      <form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+
+        <div class="form-contact__nom">
+          <label>
+            Nom
+          </label> </br>
+          <input id="name" />
+        </div>
+        <div class="form-contact__email">
+          <label>
+            Adresse email
+          </label></br>
+          <input id="email" type="email" />
+        </div>
+        <div class="form-contact__known">
+          <label>
+            Comment nous avez-vous connu ?
+          </label></br>
+          <textarea id="message"></textarea>
+
+        </div>
+        <div class="form-contact__brief">
+          <label>
+            Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
+          </label></br>
+          <textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+        </div>
+        <button class="btn__center" type="submit">
+          Envoyer
+        </button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <h4>La chouette agence - Agence web basée à Lyon.</h4>
+    <section class="social">
+      <a href="#"><span class="fa fa-twitter"></span></a>
+      <a href="#"><span class="fa fa-facebook"></span></a>
+      <a href="#"><span class="fa fa-dribbble"></span></a>
+      <a href="#"><span class="fa fa-instagram"></span></a>
+    </section>
+
+
+  </footer>
+
+</body>
+
+</html>
