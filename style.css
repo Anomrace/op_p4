@@ -90,11 +90,6 @@ a:hover {
     right: 0;
 }
 
-.texture-paper::before {
-    background: url("img/texture-paper.png");
-    background-size: 280px 280px;
-}
-
 .b-parallax {
     background-attachment: fixed;
 }
@@ -285,6 +280,8 @@ a:hover {
 
 #bloc-1-hero h1 {
     font-size: 32px;
+    background: #B03D07;
+    padding: .4em;
 }
 
 .navbar {
@@ -708,7 +705,9 @@ h2 {
     font-size: 22px;
     line-height: 1.4em;
 }
-
+h2.mg-md.text-center.tc-white.vie{
+  background: #B03D07;
+}
 h3 {
     font-size: 15px;
     text-transform: uppercase;
@@ -771,15 +770,15 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #B03D07;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #B03D07;
     color: #FFFFFF!important;
 }
 

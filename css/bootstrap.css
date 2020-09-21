@@ -3719,20 +3719,17 @@ fieldset[disabled] a.btn {
 .btn-default {
     color: #333;
     background-color: #fff;
-    border-color: #ccc
 }
 
 .btn-default.focus,
 .btn-default:focus {
     color: #333;
     background-color: #e6e6e6;
-    border-color: #8c8c8c
 }
 
 .btn-default:hover {
     color: #333;
     background-color: #e6e6e6;
-    border-color: #adadad
 }
 
 .btn-default.active,
@@ -3740,7 +3737,6 @@ fieldset[disabled] a.btn {
 .open>.dropdown-toggle.btn-default {
     color: #333;
     background-color: #e6e6e6;
-    border-color: #adadad
 }
 
 .btn-default.active.focus,
@@ -3762,7 +3758,7 @@ fieldset[disabled] a.btn {
 .open>.dropdown-toggle.btn-default {
     background-image: none
 }
-
+/*
 .btn-default.disabled,
 .btn-default.disabled.active,
 .btn-default.disabled.focus,
@@ -3784,7 +3780,7 @@ fieldset[disabled] .btn-default:hover {
     background-color: #fff;
     border-color: #ccc
 }
-
+*/
 .btn-default .badge {
     color: #fff;
     background-color: #333
@@ -4152,7 +4148,7 @@ fieldset[disabled] .btn-danger:active,
 fieldset[disabled] .btn-danger:focus,
 fieldset[disabled] .btn-danger:hover {
     background-color: #d9534f;
-    border-color: #d43f3a
+
 }
 
 .btn-danger .badge {
@@ -4173,21 +4169,21 @@ fieldset[disabled] .btn-danger:hover {
 fieldset[disabled] .btn-link {
     background-color: transparent;
     -webkit-box-shadow: none;
-    box-shadow: none
+
 }
 
 .btn-link,
 .btn-link:active,
 .btn-link:focus,
 .btn-link:hover {
-    border-color: transparent
+
 }
 
 .btn-link:focus,
 .btn-link:hover {
     color: #23527c;
     text-decoration: underline;
-    background-color: transparent
+
 }
 
 .btn-link[disabled]:focus,
@@ -4195,7 +4191,7 @@ fieldset[disabled] .btn-link {
 fieldset[disabled] .btn-link:focus,
 fieldset[disabled] .btn-link:hover {
     color: #777;
-    text-decoration: none
+
 }
 
 .btn-group-lg>.btn,
@@ -4373,7 +4369,7 @@ tbody.collapse.in {
     cursor: not-allowed;
     background-color: transparent;
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false)
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
 }
 
 .open>.dropdown-menu {
@@ -4846,13 +4842,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
     display: block;
     padding: 10px 15px
 }
-
-.nav>li>a:focus,
-.nav>li>a:hover {
-    text-decoration: none;
-    background-color: #eee
-}
-
+/*
 .nav>li.disabled>a {
     color: #777
 }
@@ -4864,7 +4854,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
     cursor: not-allowed;
     background-color: transparent
 }
-
+*/
 .nav .open>a,
 .nav .open>a:focus,
 .nav .open>a:hover {
@@ -4899,19 +4889,6 @@ textarea.input-group-sm>.input-group-btn>.btn {
     border-radius: 4px 4px 0 0
 }
 
-.nav-tabs>li>a:hover {
-    border-color: #eee #eee #ddd
-}
-
-.nav-tabs>li.active>a,
-.nav-tabs>li.active>a:focus,
-.nav-tabs>li.active>a:hover {
-    color: #555;
-    cursor: default;
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-bottom-color: transparent
-}
 
 .nav-tabs.nav-justified {
     width: 100%;
@@ -5747,7 +5724,6 @@ fieldset[disabled] .navbar-inverse .btn-link:hover {
     color: #fff;
     cursor: default;
     background-color: #337ab7;
-    border-color: #337ab7
 }
 
 .pagination>.disabled>a,
@@ -6400,7 +6376,7 @@ button.list-group-item {
     z-index: 2;
     color: #fff;
     background-color: #337ab7;
-    border-color: #337ab7
+
 }
 
 .list-group-item.active .list-group-item-heading,
@@ -6452,7 +6428,7 @@ button.list-group-item-success.active:focus,
 button.list-group-item-success.active:hover {
     color: #fff;
     background-color: #3c763d;
-    border-color: #3c763d
+
 }
 
 .list-group-item-info {
@@ -6486,7 +6462,7 @@ button.list-group-item-info.active:focus,
 button.list-group-item-info.active:hover {
     color: #fff;
     background-color: #31708f;
-    border-color: #31708f
+
 }
 
 .list-group-item-warning {
@@ -6520,7 +6496,6 @@ button.list-group-item-warning.active:focus,
 button.list-group-item-warning.active:hover {
     color: #fff;
     background-color: #8a6d3b;
-    border-color: #8a6d3b
 }
 
 .list-group-item-danger {
@@ -6554,7 +6529,6 @@ button.list-group-item-danger.active:focus,
 button.list-group-item-danger.active:hover {
     color: #fff;
     background-color: #a94442;
-    border-color: #a94442
 }
 
 .list-group-item-heading {
@@ -6871,7 +6845,7 @@ button.list-group-item-danger.active:hover {
 .panel-primary>.panel-heading {
     color: #fff;
     background-color: #337ab7;
-    border-color: #337ab7
+
 }
 
 .panel-primary>.panel-heading+.panel-collapse>.panel-body {
@@ -7820,7 +7794,7 @@ button.close {
 
 .text-hide {
     font: 0/0 a;
-    color: transparent;
+
     text-shadow: none;
     background-color: transparent;
     border: 0
